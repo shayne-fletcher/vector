@@ -60,7 +60,7 @@ module Data.Stream.Monadic (
 
   -- ** Folding
   foldl, foldlM, foldl1, foldl1M, foldM, fold1M,
-  foldl', foldlM', foldl1', foldl1M', foldM', fold1M',
+  Data.Stream.Monadic.foldl', foldlM', foldl1', foldl1M', foldM', fold1M',
   foldr, foldrM, foldr1, foldr1M,
 
   -- ** Specialised folds
